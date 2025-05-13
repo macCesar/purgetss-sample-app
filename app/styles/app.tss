@@ -15,178 +15,87 @@
 // Main Styles
 '.-ml-1': { left: -4 }
 '.-mr-1': { right: -4 }
-'.-mr-2': { right: -8 }
-'.-mr-3': { right: -12 }
-'.-mr-4': { right: -16 }
-'.-mr-5': { right: -20 }
-'.-mr-6': { right: -24 }
-'.-mr-7': { right: -28 }
-'.-mt-0.5': { top: -2 }
 '.-mx-1': { left: -4, right: -4 }
-'.autocorrect-false': { autocorrect: false }
 '.bg-blue-200': { backgroundColor: '#bfdbfe' }
 '.bg-blue-500': { backgroundColor: '#3b82f6' }
 '.bg-blue-700': { backgroundColor: '#1d4ed8' }
 '.bg-blue-900': { backgroundColor: '#1e3a8a' }
-'.bg-cover': { scalingMode: Ti.Media.IMAGE_SCALING_ASPECT_FILL }
-'.bg-cyan-500': { backgroundColor: '#06b6d4' }
 '.bg-gray-100': { backgroundColor: '#f3f4f6' }
 '.bg-gray-200': { backgroundColor: '#e5e7eb' }
 '.bg-gray-300': { backgroundColor: '#d1d5db' }
-'.bg-gray-400': { backgroundColor: '#9ca3af' }
 '.bg-gray-50': { backgroundColor: '#f9fafb' }
 '.bg-gray-500': { backgroundColor: '#6b7280' }
-'.bg-gray-600': { backgroundColor: '#4b5563' }
 '.bg-gray-800': { backgroundColor: '#1f2937' }
 '.bg-gray-900': { backgroundColor: '#111827' }
 '.bg-green-500': { backgroundColor: '#22c55e' }
 '.bg-indigo-500': { backgroundColor: '#6366f1' }
 '.bg-orange-100': { backgroundColor: '#ffedd5' }
-'.bg-red-500': { backgroundColor: '#ef4444' }
-'.bg-transparent': { backgroundColor: 'transparent' }
 '.bg-white': { backgroundColor: '#ffffff' }
-'.bg-yellow-500': { backgroundColor: '#eab308' }
 '.block': { visible: true }
-'.border': { borderWidth: 1 }
-'.border-1': { borderWidth: 1 }
 '.border-2': { borderWidth: 2 }
 '.border-4': { borderWidth: 4 }
-'.border-5': { borderWidth: 5 }
 '.border-blue-600': { borderColor: '#2563eb' }
 '.border-blue-800': { borderColor: '#1e40af' }
-'.border-cyan-500': { borderColor: '#06b6d4' }
 '.border-gray-400': { borderColor: '#9ca3af' }
 '.border-gray-500': { borderColor: '#6b7280' }
-'.border-gray-600': { borderColor: '#4b5563' }
-'.border-gray-900': { borderColor: '#111827' }
-'.border-green-500': { borderColor: '#22c55e' }
-'.border-red-500': { borderColor: '#ef4444' }
-'.border-white': { borderColor: '#ffffff' }
-'.border-yellow-500': { borderColor: '#eab308' }
 '.clip-enabled[platform=ios]': { clipMode: Ti.UI.iOS.CLIP_MODE_ENABLED }
-'.editable-false': { editable: false }
-'.enable-copy-false': { enableCopy: false }
 '.font-bold': { font: { fontWeight: 'bold' } }
 '.font-normal': { font: { fontWeight: 'normal' } }
 '.font-semibold': { font: { fontWeight: 'semibold' } }
 '.font-thin': { font: { fontWeight: 'thin' } }
 '.h-10': { height: 40 }
-'.h-11': { height: 44 }
-'.h-12': { height: 48 }
-'.h-14': { height: 56 }
 '.h-16': { height: 64 }
 '.h-20': { height: 80 }
-'.h-24': { height: 96 }
-'.h-3': { height: 12 }
 '.h-6': { height: 24 }
-'.h-7': { height: 28 }
 '.h-8': { height: 32 }
-'.h-9': { height: 36 }
 '.h-auto': { height: Ti.UI.SIZE }
 '.h-full': { height: '100%' }
 '.h-px': { height: '1px' }
-'.hidden': { visible: false }
-'.hint-text-cyan-300': { hintTextColor: '#67e8f9' }
-'.hint-text-gray-300': { hintTextColor: '#d1d5db' }
-'.hint-text-gray-400': { hintTextColor: '#9ca3af' }
-'.hint-text-gray-500': { hintTextColor: '#6b7280' }
-'.hint-text-green-300': { hintTextColor: '#86efac' }
-'.hint-text-red-300': { hintTextColor: '#fca5a5' }
-'.hint-text-yellow-300': { hintTextColor: '#fde047' }
 '.horizontal': { layout: 'horizontal' }
 '.importance[platform=android]': { importance: Ti.Android.IMPORTANCE_DEFAULT }
 '.italic': { font: { fontStyle: 'italic' } }
 '.m-2': { top: 8, right: 8, bottom: 8, left: 8 }
 '.m-3': { top: 12, right: 12, bottom: 12, left: 12 }
 '.m-4': { top: 16, right: 16, bottom: 16, left: 16 }
-'.mb-0': { bottom: 0 }
 '.mb-1': { bottom: 4 }
-'.mb-2': { bottom: 8 }
-'.mb-2.5': { bottom: 10 }
 '.mb-3': { bottom: 12 }
 '.mb-4': { bottom: 16 }
 '.mb-8': { bottom: 32 }
 '.ml-0': { left: 0 }
 '.ml-1': { left: 4 }
-'.ml-1.5': { left: 6 }
-'.ml-10': { left: 40 }
-'.ml-12': { left: 48 }
-'.ml-16': { left: 64 }
-'.ml-2': { left: 8 }
 '.ml-3': { left: 12 }
 '.ml-4': { left: 16 }
-'.ml-6': { left: 24 }
-'.ml-7': { left: 28 }
-'.ml-8': { left: 32 }
-'.ml-9': { left: 36 }
 '.mr-0': { right: 0 }
-'.mr-1': { right: 4 }
-'.mr-1.5': { right: 6 }
-'.mr-10': { right: 40 }
-'.mr-16': { right: 64 }
-'.mr-2': { right: 8 }
 '.mr-4': { right: 16 }
-'.mr-6': { right: 24 }
-'.mr-7': { right: 28 }
-'.mr-8': { right: 32 }
-'.mr-9': { right: 36 }
 '.mt-0': { top: 0 }
-'.mt-0.5': { top: 2 }
 '.mt-1': { top: 4 }
-'.mt-1.5': { top: 6 }
 '.mt-2': { top: 8 }
 '.mt-3': { top: 12 }
 '.mt-4': { top: 16 }
-'.mt-5': { top: 20 }
-'.mt-6': { top: 24 }
 '.mx-0': { right: 0, left: 0 }
-'.mx-0.5': { right: 2, left: 2 }
-'.mx-1.5': { right: 6, left: 6 }
 '.mx-10': { right: 40, left: 40 }
-'.mx-12': { right: 48, left: 48 }
 '.mx-2': { right: 8, left: 8 }
 '.mx-3': { right: 12, left: 12 }
-'.mx-3.5': { right: 14, left: 14 }
 '.mx-4': { right: 16, left: 16 }
-'.mx-5': { right: 20, left: 20 }
 '.mx-6': { right: 24, left: 24 }
 '.mx-8': { right: 32, left: 32 }
-'.mx-auto': { right: null, left: null }
-'.my-0.5': { top: 2, bottom: 2 }
-'.my-1': { top: 4, bottom: 4 }
 '.my-10': { top: 40, bottom: 40 }
 '.my-2': { top: 8, bottom: 8 }
-'.normal-case': { autocapitalization: Ti.UI.TEXT_AUTOCAPITALIZATION_NONE }
-'.opacity-0': { opacity: 0 }
 '.opacity-100': { opacity: 1 }
 '.opacity-25': { opacity: 0.25 }
 '.opacity-50': { opacity: 0.5 }
 '.opacity-75': { opacity: 0.75 }
-'.p-2': { padding: { top: 8, right: 8, bottom: 8, left: 8 } }
 '.paging-control-gray-200': { pagingControlColor: '#e5e7eb' }
 '.pl-2': { padding: { left: 8 } }
-'.py-2': { padding: { top: 8, bottom: 8 } }
 '.return-key-type-next': { returnKeyType: Ti.UI.RETURNKEY_NEXT }
 '.rounded': { borderRadius: 4 }
 '.rounded-10': { borderRadius: 20 }
-'.rounded-11': { borderRadius: 22 }
 '.rounded-12': { borderRadius: 24 }
-'.rounded-14': { borderRadius: 28 }
 '.rounded-16': { borderRadius: 32 }
-'.rounded-2': { borderRadius: 4 }
-'.rounded-20': { borderRadius: 40 }
-'.rounded-3': { borderRadius: 6 }
-'.rounded-6': { borderRadius: 12 }
-'.rounded-7': { borderRadius: 14 }
 '.rounded-8': { borderRadius: 16 }
-'.rounded-9': { borderRadius: 18 }
 '.rounded-lg': { borderRadius: 8 }
 '.rounded-md': { borderRadius: 6 }
-'.rounded-t-lg': { borderRadius: [8, 8, 0, 0] }
-'.rounded-tr-3': { borderRadius: [0, 6, 0, 0] }
-'.rounded-xl': { borderRadius: 12 }
 '.running': { running: true }
-'.scrollable-false': { scrollable: false }
 '.shadow': { viewShadowOffset: { x: 0, y: 2 }, viewShadowRadius: 4, viewShadowColor: '#80000000', elevation: 16 }
 '.shadow-2xl': { viewShadowOffset: { x: 0, y: 8 }, viewShadowRadius: 14, viewShadowColor: '#80000000', elevation: 38 }
 '.shadow-inner': { viewShadowOffset: { x: 0, y: 0 }, viewShadowRadius: null, viewShadowColor: null, elevation: 0 }
@@ -200,27 +109,18 @@
 '.text-2xl': { font: { fontSize: 24 } }
 '.text-3xl': { font: { fontSize: 30 } }
 '.text-4xl': { font: { fontSize: 36 } }
-'.text-7xl': { font: { fontSize: 72 } }
 '.text-base': { font: { fontSize: 16 } }
 '.text-blue-700': { color: '#1d4ed8', textColor: '#1d4ed8' }
 '.text-center': { textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER }
-'.text-cyan-500': { color: '#06b6d4', textColor: '#06b6d4' }
-'.text-cyan-600': { color: '#0891b2', textColor: '#0891b2' }
 '.text-gray-200': { color: '#e5e7eb', textColor: '#e5e7eb' }
-'.text-gray-400': { color: '#9ca3af', textColor: '#9ca3af' }
 '.text-gray-500': { color: '#6b7280', textColor: '#6b7280' }
 '.text-gray-600': { color: '#4b5563', textColor: '#4b5563' }
 '.text-gray-700': { color: '#374151', textColor: '#374151' }
 '.text-gray-800': { color: '#1f2937', textColor: '#1f2937' }
 '.text-gray-900': { color: '#111827', textColor: '#111827' }
-'.text-gray-950': { color: '#030712', textColor: '#030712' }
-'.text-green-500': { color: '#22c55e', textColor: '#22c55e' }
-'.text-green-600': { color: '#16a34a', textColor: '#16a34a' }
 '.text-indigo-700': { color: '#4338ca', textColor: '#4338ca' }
 '.text-left': { textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT }
-'.text-lg': { font: { fontSize: 18 } }
 '.text-purple-500': { color: '#a855f7', textColor: '#a855f7' }
-'.text-red-500': { color: '#ef4444', textColor: '#ef4444' }
 '.text-red-600': { color: '#dc2626', textColor: '#dc2626' }
 '.text-red-700': { color: '#b91c1c', textColor: '#b91c1c' }
 '.text-right': { textAlign: Ti.UI.TEXT_ALIGNMENT_RIGHT }
@@ -228,135 +128,36 @@
 '.text-white': { color: '#ffffff', textColor: '#ffffff' }
 '.text-xl': { font: { fontSize: 20 } }
 '.text-xs': { font: { fontSize: 12 } }
-'.text-yellow-500': { color: '#eab308', textColor: '#eab308' }
-'.text-yellow-600': { color: '#ca8a04', textColor: '#ca8a04' }
-'.touch-enabled-false': { touchEnabled: false }
-'.touch-feedback': { touchFeedback: true }
 '.vertical': { layout: 'vertical' }
 '.w-1/2': { width: '50%' }
 '.w-1/3': { width: '33.333334%' }
 '.w-1/4': { width: '25%' }
 '.w-1/5': { width: '20%' }
-'.w-10': { width: 40 }
 '.w-11/12': { width: '91.666667%' }
-'.w-12': { width: 48 }
-'.w-14': { width: 56 }
 '.w-16': { width: 64 }
-'.w-2': { width: 8 }
-'.w-20': { width: 80 }
 '.w-24': { width: 96 }
-'.w-3': { width: 12 }
 '.w-4/5': { width: '80%' }
 '.w-56': { width: 224 }
 '.w-6': { width: 24 }
-'.w-7': { width: 28 }
-'.w-8': { width: 32 }
-'.w-9': { width: 36 }
 '.w-auto': { width: Ti.UI.SIZE }
 '.w-full': { width: '100%' }
 '.w-screen': { width: Ti.UI.FILL }
 '.wh-10': { width: 40, height: 40 }
 '.wh-12': { width: 48, height: 48 }
 '.wh-16': { width: 64, height: 64 }
-'.wh-auto': { width: Ti.UI.SIZE, height: Ti.UI.SIZE }
-
-// Platform and Device Modifiers
-'.android:border-style-none[platform=android]': { borderStyle: Ti.UI.INPUT_BORDERSTYLE_NONE }
-'.android:pt-20[platform=android]': { padding: { top: 80 } }
-'.android:px-2[platform=android]': { padding: { right: 8, left: 8 } }
-'.android:px-8[platform=android]': { padding: { right: 32, left: 32 } }
-'.android:touch-feedback[platform=android]': { touchFeedback: true }
-'.ios:pb-4[platform=ios]': { padding: { bottom: 16 } }
-'.ios:prevent-default-image[platform=ios]': { preventDefaultImage: true }
-'.ios:pt-12[platform=ios]': { padding: { top: 48 } }
-'.ios:px-1[platform=ios]': { padding: { right: 4, left: 4 } }
-'.ios:px-3[platform=ios]': { padding: { right: 12, left: 12 } }
-
-// Color Opacity Modifiers
-'.bg-gray-500/10': { backgroundColor: '#1a6b7280' }
-'.bg-gray-500/50': { backgroundColor: '#806b7280' }
-'.bg-gray-500/7.5': { backgroundColor: '#136b7280' }
-'.bg-gray-500/80': { backgroundColor: '#cc6b7280' }
-'.bg-gray-500/90': { backgroundColor: '#e66b7280' }
-'.bg-gray-700/10': { backgroundColor: '#1a374151' }
-'.bg-gray-700/50': { backgroundColor: '#80374151' }
-'.bg-gray-700/7.5': { backgroundColor: '#13374151' }
-'.bg-gray-700/80': { backgroundColor: '#cc374151' }
-'.bg-gray-700/90': { backgroundColor: '#e6374151' }
-'.bg-gray-950/10': { backgroundColor: '#1a030712' }
-'.bg-gray-950/50': { backgroundColor: '#80030712' }
-'.bg-gray-950/7.5': { backgroundColor: '#13030712' }
-'.bg-gray-950/80': { backgroundColor: '#cc030712' }
-'.bg-gray-950/90': { backgroundColor: '#e6030712' }
-'.bg-white/10': { backgroundColor: '#1affffff' }
-'.bg-white/50': { backgroundColor: '#80ffffff' }
-'.bg-white/7.5': { backgroundColor: '#13ffffff' }
-'.bg-white/80': { backgroundColor: '#ccffffff' }
-'.bg-white/85': { backgroundColor: '#d9ffffff' }
-'.bg-white/90': { backgroundColor: '#e6ffffff' }
-'.bg-white/93.5': { backgroundColor: '#eeffffff' }
-'.border-gray-500/90': { borderColor: '#e66b7280' }
-'.border-gray-700/90': { borderColor: '#e6374151' }
-'.border-gray-950/90': { borderColor: '#e6030712' }
-'.border-white/90': { borderColor: '#e6ffffff' }
-'.ios:bg-selected-black/10[platform=ios]': { backgroundSelectedColor: '#1a000000' }
-'.text-gray-500/10': { color: '#1a6b7280', textColor: '#1a6b7280' }
-'.text-gray-500/70': { color: '#b36b7280', textColor: '#b36b7280' }
-'.text-gray-500/90': { color: '#e66b7280', textColor: '#e66b7280' }
-'.text-gray-600/70': { color: '#b34b5563', textColor: '#b34b5563' }
-'.text-gray-700/10': { color: '#1a374151', textColor: '#1a374151' }
-'.text-gray-700/70': { color: '#b3374151', textColor: '#b3374151' }
-'.text-gray-700/90': { color: '#e6374151', textColor: '#e6374151' }
-'.text-gray-950/10': { color: '#1a030712', textColor: '#1a030712' }
-'.text-gray-950/70': { color: '#b3030712', textColor: '#b3030712' }
-'.text-gray-950/80': { color: '#cc030712', textColor: '#cc030712' }
-'.text-gray-950/90': { color: '#e6030712', textColor: '#e6030712' }
-'.text-white/10': { color: '#1affffff', textColor: '#1affffff' }
-'.text-white/70': { color: '#b3ffffff', textColor: '#b3ffffff' }
-'.text-white/80': { color: '#ccffffff', textColor: '#ccffffff' }
-'.text-white/90': { color: '#e6ffffff', textColor: '#e6ffffff' }
-'.text-white/93.5': { color: '#eeffffff', textColor: '#eeffffff' }
 
 // Arbitrary Values
 '.cache-size-(9)': { cacheSize: 9 }
-'.h-(72)': { height: 72 }
-'.h-(88)': { height: 88 }
-'.rounded-(2.25rem)': { borderRadius: 36 }
-'.rounded-(2.75rem)': { borderRadius: 44 }
-'.w-(72)': { width: 72 }
-'.w-(88)': { width: 88 }
 
 // Default Font Awesome
-'.fa':{ font: { fontFamily: 'FontAwesome6Free-Solid' } }
 '.fa-align-left': { text: '\uf036', title: '\uf036' }
 '.fa-bath': { text: '\uf2cd', title: '\uf2cd' }
 '.fa-bed': { text: '\uf236', title: '\uf236' }
-'.fa-check-circle': { text: '\uf058', title: '\uf058' }
 '.fa-check-square': { text: '\uf14a', title: '\uf14a' }
-'.fa-circle-check': { text: '\uf058', title: '\uf058' }
 '.fa-code': { text: '\uf121', title: '\uf121' }
 '.fa-comment-alt': { text: '\uf27a', title: '\uf27a' }
-'.fa-exclamation-circle': { text: '\uf06a', title: '\uf06a' }
-'.fa-info-circle': { text: '\uf05a', title: '\uf05a' }
-'.fa-minus-circle': { text: '\uf056', title: '\uf056' }
 '.fa-regular': { font: { fontFamily: 'FontAwesome6Free-Regular' } }
 '.fa-solid': { font: { fontFamily: 'FontAwesome6Free-Solid' } }
 '.fa-square': { text: '\uf0c8', title: '\uf0c8' }
 '.fa-suitcase': { text: '\uf0f2', title: '\uf0f2' }
-'.fa-times': { text: '\uf00d', title: '\uf00d' }
 '.fa-user': { text: '\uf007', title: '\uf007' }
-'.fas': { font: { fontFamily: 'FontAwesome6Free-Solid' } }
-
-// Unused or unsupported classes
-// '.bg-primary': { }
-// '.bg-secondary': { }
-// '.border-primary-800': { }
-// '.border-secondary-800': { }
-// '.font-mono': { }
-// '.font-regular': { }
-// '.hint-text-primary-300': { }
-// '.hint-text-secondary-300': { }
-// '.text-primary': { }
-// '.text-primary-900': { }
-// '.text-secondary': { }
-// '.text-secondary-900': { }
