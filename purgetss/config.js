@@ -14,10 +14,10 @@ module.exports = {
     }
   },
   theme: {
-		extend: {},
-		Label: { default: { touchEnabled: false } },
-		TextArea: { default: { touchEnabled: false } },
-		Button: { android: { backgroundColor: 'transparent' } },
-		ScrollView: { default: { contentWidth: 'Ti.UI.FILL', contentHeight: 'Ti.UI.SIZE' }, android: { scrollType: 'vertical' } },
+    extend: {},
+    Label: { default: { touchEnabled: false } },
+    TextArea: { default: { touchEnabled: false } },
+    Button: { android: { backgroundColor: 'transparent' } },
+    ScrollView: { default: { contentWidth: 'Ti.UI.FILL', contentHeight: 'Ti.UI.SIZE' }, android: { scrollType: 'vertical' } },
   }
 }

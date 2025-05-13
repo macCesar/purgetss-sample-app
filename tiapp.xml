@@ -1,77 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ti:app xmlns:ti="http://ti.appcelerator.org">
-	<id>com.tailwindtss.app</id>
-	<name>tailwind-tss</name>
-	<version>1.0</version>
-	<publisher>not specified</publisher>
-	<url>''</url>
-	<description/>
-	<copyright>2020</copyright>
-	<icon>appicon.png</icon>
-	<fullscreen>false</fullscreen>
-	<navbar-hidden>false</navbar-hidden>
-	<analytics>false</analytics>
-	<guid>8799c670-dcec-4f2b-a83a-80ae66c9b098</guid>
-	<property name="ti.ui.defaultunit" type="string">dp</property>
-	<property name="run-on-main-thread" type="bool">true</property>
+  <id>com.tailwindtss.app</id>
+  <name>PurgeTSS - Sample App</name>
+  <version>1.0</version>
+  <publisher>not specified</publisher>
+  <url>''</url>
+  <description/>
+  <copyright>2020</copyright>
+  <icon>appicon.png</icon>
+  <fullscreen>false</fullscreen>
+  <navbar-hidden>false</navbar-hidden>
+  <analytics>false</analytics>
+  <guid>8799c670-dcec-4f2b-a83a-80ae66c9b098</guid>
+  <property name="ti.ui.defaultunit" type="string">dp</property>
+  <property name="run-on-main-thread" type="bool">true</property>
 
-	<ios>
-		<use-app-thinning>true</use-app-thinning>
-		<use-jscore-framework>true</use-jscore-framework>
-		<enable-launch-screen-storyboard>true</enable-launch-screen-storyboard>
-		<plist>
-			<dict>
-				<key>UISupportedInterfaceOrientations~iphone</key>
+  <ios>
+    <use-app-thinning>true</use-app-thinning>
+    <use-jscore-framework>true</use-jscore-framework>
+    <enable-launch-screen-storyboard>true</enable-launch-screen-storyboard>
+    <plist>
+      <dict>
+        <key>UISupportedInterfaceOrientations~iphone</key>
 
-				<array>
-					<string>UIInterfaceOrientationPortrait</string>
-					<string>UIInterfaceOrientationLandscapeLeft</string>
-					<string>UIInterfaceOrientationLandscapeRight</string>
-				</array>
+        <array>
+          <string>UIInterfaceOrientationPortrait</string>
+          <string>UIInterfaceOrientationLandscapeLeft</string>
+          <string>UIInterfaceOrientationLandscapeRight</string>
+        </array>
 
-				<key>UISupportedInterfaceOrientations~ipad</key>
-				<array>
-					<string>UIInterfaceOrientationPortrait</string>
-					<string>UIInterfaceOrientationPortraitUpsideDown</string>
-					<string>UIInterfaceOrientationLandscapeLeft</string>
-					<string>UIInterfaceOrientationLandscapeRight</string>
-				</array>
+        <key>UISupportedInterfaceOrientations~ipad</key>
+        <array>
+          <string>UIInterfaceOrientationPortrait</string>
+          <string>UIInterfaceOrientationPortraitUpsideDown</string>
+          <string>UIInterfaceOrientationLandscapeLeft</string>
+          <string>UIInterfaceOrientationLandscapeRight</string>
+        </array>
 
-				<key>UIRequiresPersistentWiFi</key>
-				<false/>
+        <key>UIRequiresPersistentWiFi</key>
+        <false/>
 
-				<key>UIPrerenderedIcon</key>
-				<false/>
+        <key>UIPrerenderedIcon</key>
+        <false/>
 
-				<key>UIStatusBarHidden</key>
-				<false/>
+        <key>UIStatusBarHidden</key>
+        <false/>
 
-				<key>UIStatusBarStyle</key>
-				<string>UIStatusBarStyleDefault</string>
-			</dict>
-		</plist>
-	</ios>
+        <key>UIStatusBarStyle</key>
+        <string>UIStatusBarStyleDefault</string>
+      </dict>
+    </plist>
+  </ios>
 
-	<android xmlns:android="http://schemas.android.com/apk/res/android">
-		<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1">
-			<uses-sdk android:minSdkVersion="21"/>
-			<uses-sdk android:targetSdkVersion="29"/>
-			<supports-screens android:anyDensity="true"/>
-		</manifest>
-	</android>
+  <android xmlns:android="http://schemas.android.com/apk/res/android">
+    <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1">
+      <uses-sdk android:minSdkVersion="21"/>
+      <uses-sdk android:targetSdkVersion="29"/>
+      <supports-screens android:anyDensity="true"/>
+    </manifest>
+  </android>
 
-	<modules>
-	</modules>
+  <modules>
+  </modules>
 
-	<deployment-targets>
-		<target device="ipad">true</target>
-		<target device="iphone">true</target>
-		<target device="android">true</target>
-	</deployment-targets>
+  <deployment-targets>
+    <target device="ipad">true</target>
+    <target device="iphone">true</target>
+    <target device="android">true</target>
+  </deployment-targets>
 
-	<sdk-version>12.3.1.GA</sdk-version>
+  <sdk-version>12.7.0.GA</sdk-version>
 
-	<plugins>
-		<plugin version="1.0">ti.alloy</plugin>
-	</plugins>
+  <plugins>
+    <plugin version="1.0">ti.alloy</plugin>
+  </plugins>
 </ti:app>

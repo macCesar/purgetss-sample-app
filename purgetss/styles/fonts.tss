@@ -1,4 +1,4 @@
-// Fonts TSS file generated with PurgeTSS
+// Fonts TSS file generated with Purge TSS
 // https://purgetss.com/docs/commands#build-fonts-command
 
 /**
@@ -29,7 +29,7 @@
  * Copyright 2022. All rights reserved
  * End User License Agreement (EULA) - https://iconfonts.gumroad.com/l/rsvlq
  */
-'.ili': { font: { fontFamily: 'Interface-Line-Icon-2' } }
+'.interface-line-icon-2': { font: { fontFamily: 'Interface-Line-Icon-2' } }
 
 /**
  * Liquid-Container-Icons
@@ -39,7 +39,7 @@
  * Copyright 2022. All rights reserved
  * End User License Agreement (EULA) - https://iconfonts.gumroad.com/l/ftmll
  */
-'.lci': { font: { fontFamily: 'Liquid-Container-Icons' } }
+'.liquid-container-icons': { font: { fontFamily: 'Liquid-Container-Icons' } }
 
 // Unicode Characters
 // To use your Icon Fonts in Buttons AND Labels each class sets 'text' and 'title' properties

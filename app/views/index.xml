@@ -1,6 +1,6 @@
 <Alloy>
   <NavigationWindow id="navWindow">
-    <Window title="tailwind tss">
+    <Window title="PurgeTSS - Sample App">
       <ScrollableView class="show-paging-control paging-control-gray-200 cache-size-(9) h-full w-full bg-white">
         <Require src="examples/nike" />
 

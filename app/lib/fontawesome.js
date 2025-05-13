@@ -1,30 +1,62 @@
 /**
- * Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com
+ * Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
 */
 
-exports.getIcon = function getIcon(selector) {
-  if (selector === undefined) { throw new Error('Selector missing!') }
-  return (icons[selector] !== undefined) ? icons[selector] : 'N/A'
-}
+function getIcon(selector) {
+  if (selector === undefined || selector === null) {
+    console.warn('Selector is null or undefined')
+    return 'N/A'
+  }
 
-exports.setTitle = function setTitle(selector, object) {
-  if (selector === undefined || object === undefined) { throw new Error('Selector or target Object missing!') }
-  object.title = (icons[selector] !== undefined) ? icons[selector] : 'N/A'
-}
+  if (typeof selector !== 'string' && typeof selector !== 'number') {
+    console.warn('Selector must be string or number')
+    return 'N/A'
+  }
 
-exports.setText = function setText(selector, object) {
-  if (selector === undefined || object === undefined) { throw new Error('Selector or target Object missing!') }
-  object.text = (icons[selector] !== undefined) ? icons[selector] : 'N/A'
+  return icons[selector] || 'N/A'
 }
+exports.getIcon = getIcon
 
-exports.getRandomKey = function getRandomKey() {
-  return Object.keys(icons)[Math.floor(Math.random() * Object.keys(icons).length)]
-}
+function setTitle(selector, object) {
+  if (selector === undefined || selector === null) {
+    console.warn('Selector is null or undefined')
+    return
+  }
 
-exports.getRandomValue = function getRandomValue() {
-  return icons[Object.keys(icons)[Math.floor(Math.random() * Object.keys(icons).length)]]
+  if (!object || typeof object !== 'object') {
+    console.warn('Invalid target object')
+    return
+  }
+
+  object.title = icons[selector] || 'N/A'
 }
+exports.setTitle = setTitle
+
+function setText(selector, object) {
+  if (selector === undefined || selector === null) {
+    console.warn('Selector is null or undefined')
+    return
+  }
+
+  if (!object || typeof object !== 'object') {
+    console.warn('Invalid target object')
+    return
+  }
+
+  object.text = icons[selector] || 'N/A'
+}
+exports.setText = setText
+
+function getRandomKey() {
+  return iconKeys[Math.floor(Math.random() * iconKeys.length)]
+}
+exports.getRandomKey = getRandomKey
+
+function getRandomValue() {
+  return icons[iconKeys[Math.floor(Math.random() * iconKeys.length)]]
+}
+exports.getRandomValue = getRandomValue
 
 const icons = {
   0: '\u0030',
@@ -493,6 +525,8 @@ const icons = {
   signInAlt: '\uf2f6',
   venus: '\uf221',
   passport: '\uf5ab',
+  thumbtackSlash: '\ue68f',
+  thumbTackSlash: '\ue68f',
   heartPulse: '\uf21e',
   heartbeat: '\uf21e',
   peopleCarryBox: '\uf4ce',
@@ -613,6 +647,7 @@ const icons = {
   arrowUpFromGroundWater: '\ue4b5',
   martiniGlass: '\uf57b',
   glassMartiniAlt: '\uf57b',
+  squareBinary: '\ue69b',
   rotateLeft: '\uf2ea',
   rotateBack: '\uf2ea',
   rotateBackward: '\uf2ea',
@@ -1032,6 +1067,7 @@ const icons = {
   grinSquint: '\uf585',
   handHoldingDollar: '\uf4c0',
   handHoldingUsd: '\uf4c0',
+  chartDiagram: '\ue695',
   bacterium: '\ue05a',
   handPointer: '\uf25a',
   drumSteelpan: '\uf56a',
@@ -1064,6 +1100,7 @@ const icons = {
   shieldVirus: '\ue06c',
   diceSix: '\uf526',
   mosquitoNet: '\ue52c',
+  fileFragment: '\ue697',
   bridgeWater: '\ue4ce',
   personBooth: '\uf756',
   textWidth: '\uf035',
@@ -1245,6 +1282,7 @@ const icons = {
   plugCirclePlus: '\ue55f',
   placeOfWorship: '\uf67f',
   gripVertical: '\uf58e',
+  hexagonNodes: '\ue699',
   arrowTurnUp: '\uf148',
   levelUp: '\uf148',
   u: '\u0055',
@@ -1634,6 +1672,7 @@ const icons = {
   photoFilm: '\uf87c',
   photoVideo: '\uf87c',
   folderMinus: '\uf65d',
+  hexagonNodesBolt: '\ue69a',
   store: '\uf54e',
   arrowTrendUp: '\ue098',
   plugCircleMinus: '\ue55e',
@@ -1721,6 +1760,7 @@ const icons = {
   shieldBlank: '\uf132',
   arrowUpShortWide: '\uf885',
   sortAmountUpAlt: '\uf885',
+  commentNodes: '\ue696',
   houseMedical: '\ue3b2',
   golfBallTee: '\uf450',
   golfBall: '\uf450',
@@ -1911,6 +1951,7 @@ const icons = {
   mugSaucer: '\uf0f4',
   coffee: '\uf0f4',
   brush: '\uf55d',
+  fileHalfDashed: '\ue698',
   mask: '\uf6fa',
   magnifyingGlassMinus: '\uf010',
   searchMinus: '\uf010',
@@ -1930,6 +1971,7 @@ const icons = {
   bugSlash: '\ue490',
   arrowUpFromWaterPump: '\ue4b6',
   bone: '\uf5d7',
+  tableCellsRowUnlock: '\ue691',
   userInjured: '\uf728',
   faceSadTear: '\uf5b4',
   sadTear: '\uf5b4',
@@ -2013,6 +2055,7 @@ const icons = {
   glideG: '\uf2a6',
   drupal: '\uf1a9',
   jxl: '\ue67b',
+  dartLang: '\ue693',
   hireAHelper: '\uf3b0',
   creativeCommonsBy: '\uf4e7',
   unity: '\ue049',
@@ -2098,6 +2141,7 @@ const icons = {
   debian: '\ue60b',
   openid: '\uf19b',
   instalod: '\ue081',
+  filesPinwheel: '\ue69f',
   expeditedssl: '\uf23e',
   sellcast: '\uf2da',
   squareTwitter: '\uf081',
@@ -2139,6 +2183,7 @@ const icons = {
   stickerMule: '\uf3f7',
   creativeCommonsZero: '\uf4f3',
   hips: '\uf452',
+  css: '\ue6a2',
   behance: '\uf1b4',
   reddit: '\uf1a1',
   discord: '\uf392',
@@ -2282,6 +2327,7 @@ const icons = {
   spotify: '\uf1bc',
   optinMonster: '\uf23c',
   fly: '\uf417',
+  squareBluesky: '\ue6a3',
   aviato: '\uf421',
   itunes: '\uf3b4',
   cuttlefish: '\uf38c',
@@ -2326,6 +2372,7 @@ const icons = {
   hubspot: '\uf3b2',
   deploydog: '\uf38e',
   twitch: '\uf1e8',
+  flutter: '\ue694',
   ravelry: '\uf2d9',
   mixer: '\ue056',
   squareLastfm: '\uf203',
@@ -2506,3 +2553,5 @@ const icons = {
   steamSymbol: '\uf3f6'
 }
 exports.icons = icons
+
+const iconKeys = Object.keys(icons)
