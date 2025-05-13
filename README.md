@@ -1,33 +1,37 @@
-# tailwindTSS Sample App
+# Welcome to the PurgeTSS Sample App
 
-This app showcases a variety of user interface designs built using [Tailwind-like](https://tailwindcss.com/) styles applied with [PurgeTSS](https://purgetss.com/). Each example demonstrates how different UI components can be styled and structured to create visually appealing and functional interfaces for mobile applications developed with [Titanium SDK](https://titaniumsdk.com).
+This project is a playground for exploring beautiful, modern UI designs using [Tailwind-like](https://tailwindcss.com/) utility classes, powered by [PurgeTSS](https://purgetss.com/). Here, you'll find a collection of ready-to-use examples that show how to style and structure mobile interfaces for [Titanium SDK](https://titaniumsdk.com/) apps with ease.
 
 ## Getting Started
 
-First make sure you have **PurgeTSS** installed globally on your machine:
+First, make sure you have **PurgeTSS** installed globally:
 ```bash
-> [sudo] npm i -g purgetss
+[sudo] npm i -g purgetss
 ```
 
-1. Download or clone this repo and navigate to the project root directory.
-2. Compile the app to your device or emulator.
+1. Clone or download this repo and open the project folder.
+2. Build and run the app on your device or emulator.
 
-Optionally, you can run `npm install` to install the recommended dev dependencies.
+You can also run `npm install` to set up recommended dev dependencies (optional, but helpful).
 
-### Important Notice!
+### Heads Up!
 > **PurgeTSS will OVERWRITE your existing `app.tss` file.**
 >
-> Upon the initial execution of **PurgeTSS**, your `app.tss` file is backed up to `_app.tss`.
+> The first time you run **PurgeTSS**, your `app.tss` is backed up as `_app.tss`.
 >
-> From this point forward, you have the option to add, delete, or update your custom classes in `_app.tss`.
+> After that, you can add, remove, or update your custom classes in `_app.tss`.
 >
-> Alternatively, a better approach is to include your custom values in `config.js`. Further information is available in the [Configuration Section](customization/the-config-file).
+> For a cleaner approach, add your custom values in `config.js`. See more in the [Configuration Section](customization/the-config-file).
 
+Explore all available classes:
+- [tailwind.tss](https://github.com/macCesar/purgeTSS/blob/master/dist/tailwind.tss)
+- [fontawesome.tss](https://github.com/macCesar/purgeTSS/blob/master/dist/fontawesome.tss)
+- [materialicons.tss](https://github.com/macCesar/purgeTSS/blob/master/dist/materialicons.tss)
+- [framework7icons.tss](https://github.com/macCesar/purgeTSS/blob/master/dist/framework7icons.tss)
 
-Check out all available classes in: [tailwind.tss](https://github.com/macCesar/purgeTSS/blob/master/dist/tailwind.tss), [fontawesome.tss](https://github.com/macCesar/purgeTSS/blob/master/dist/fontawesome.tss), [materialicons.tss](https://github.com/macCesar/purgeTSS/blob/master/dist/materialicons.tss), [framework7icons.tss](https://github.com/macCesar/purgeTSS/blob/master/dist/framework7icons.tss). Or, create your own [Custom Classes](https://purgetss.com/docs/customization/the-config-file).
+Or, create your own [Custom Classes](https://purgetss.com/docs/customization/the-config-file).
 
-
-**For more information, visit the [official documentation](https://github.com/macCesar/purgeTSS).**
+**Want to dive deeper? Check out the [official documentation](https://purgetss.com/).**
 
 ## Example Views
 
@@ -49,7 +53,9 @@ Check out all available classes in: [tailwind.tss](https://github.com/macCesar/p
 </Alloy>
 ```
 
-<img src="app/assets/images/customer-support-3.png" width="375" alt="iOS Screen - Customer Support">
+<p align="center">
+  <img src="app/assets/images/customer-support-3.png" width="375" alt="iOS Screen - Customer Support">
+</p>
 
 ### 'Card' Example
 ```xml
@@ -73,7 +79,9 @@ Check out all available classes in: [tailwind.tss](https://github.com/macCesar/p
 </Alloy>
 ```
 
-<img src="app/assets/images/card-content-3.png" width="375" alt="iOS Screen - Card Content">
+<p align="center">
+  <img src="app/assets/images/card-content-3.png" width="375" alt="iOS Screen - Card Content">
+</p>
 
 ### 'Nike' Example
 ```xml
@@ -100,7 +108,9 @@ Check out all available classes in: [tailwind.tss](https://github.com/macCesar/p
 </Alloy>
 ```
 
-<img src="app/assets/images/nike-3.png" width="375" alt="iOS Screen - Nike">
+<p align="center">
+  <img src="app/assets/images/nike-3.png" width="375" alt="iOS Screen - Nike">
+</p>
 
 ### 'Politico' Example
 ```xml
@@ -160,7 +170,9 @@ Although elected officials averse to mask mandates argue Americans should be abl
 </Alloy>
 ```
 
-<img src="app/assets/images/politico-3.png" width="375" alt="iOS Screen - Politico">
+<p align="center">
+  <img src="app/assets/images/politico-3.png" width="375" alt="iOS Screen - Politico">
+</p>
 
 ### 'House' Example
 ```xml
@@ -206,7 +218,9 @@ Although elected officials averse to mask mandates argue Americans should be abl
 </Alloy>
 ```
 
-<img src="app/assets/images/detached-house-3.png" width="375" alt="iOS Screen - Detached House">
+<p align="center">
+  <img src="app/assets/images/detached-house-3.png" width="375" alt="iOS Screen - Detached House">
+</p>
 
 ### 'Projects' Example
 ```xml
@@ -281,7 +295,9 @@ Although elected officials averse to mask mandates argue Americans should be abl
 </Alloy>
 ```
 
-<img src="app/assets/images/projects-3.png" width="375" alt="iOS Screen - Projects">
+<p align="center">
+  <img src="app/assets/images/projects-3.png" width="375" alt="iOS Screen - Projects">
+</p>
 
 ### 'Private Villa' Example
 ```xml
@@ -302,7 +318,9 @@ Although elected officials averse to mask mandates argue Americans should be abl
 </Alloy>
 ```
 
-<img src="app/assets/images/private-villa-3.png" width="375" alt="iOS Screen - Private Villa">
+<p align="center">
+  <img src="app/assets/images/private-villa-3.png" width="375" alt="iOS Screen - Private Villa">
+</p>
 
 ### 'Login Form' Example
 ```xml
@@ -340,4 +358,6 @@ Although elected officials averse to mask mandates argue Americans should be abl
 </Alloy>
 ```
 
-<img src="app/assets/images/login-form-3.png" width="375" alt="iOS Screen - Login Form">
+<p align="center">
+  <img src="app/assets/images/login-form-3.png" width="375" alt="iOS Screen - Login Form">
+</p>
