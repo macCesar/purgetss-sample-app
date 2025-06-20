@@ -1,5 +1,5 @@
 const icons = {
-  // interface-line-icon/style.css
+  // interface-line-icon/ili.css
   ili: {
     archive: '\ue900',
     attachment: '\ue901',
@@ -26,7 +26,7 @@ const icons = {
     stats: '\ue916',
     time: '\ue917',
   },
-  // liquid-container/style.css
+  // liquid-container/lci.css
   lci: {
     aerosolBottleChemical: '\ue900',
     alcoholBottleGlass: '\ue901',
@@ -61,9 +61,9 @@ exports.icons = icons
 const iconKeys = Object.keys(icons)
 
 const families = {
-  // interface-line-icon/style.css
+  // interface-line-icon/ili.css
   ili: 'Interface-Line-Icon-2',
-  // liquid-container/style.css
+  // liquid-container/lci.css
   lci: 'Liquid-Container-Icons'
 }
 exports.family = families

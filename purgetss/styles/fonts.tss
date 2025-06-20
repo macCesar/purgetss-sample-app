@@ -1,4 +1,4 @@
-// Fonts TSS file generated with Purge TSS
+// Fonts TSS file generated with PurgeTSS
 // https://purgetss.com/docs/commands#build-fonts-command
 
 /**
@@ -44,7 +44,7 @@
 // Unicode Characters
 // To use your Icon Fonts in Buttons AND Labels each class sets 'text' and 'title' properties
 
-// interface-line-icon/style.css
+// interface-line-icon/ili.css
 '.ili-archive': { text: '\ue900', title: '\ue900' }
 '.ili-attachment': { text: '\ue901', title: '\ue901' }
 '.ili-calander': { text: '\ue902', title: '\ue902' }
@@ -70,7 +70,7 @@
 '.ili-stats': { text: '\ue916', title: '\ue916' }
 '.ili-time': { text: '\ue917', title: '\ue917' }
 
-// liquid-container/style.css
+// liquid-container/lci.css
 '.lci-aerosol-bottle-chemical': { text: '\ue900', title: '\ue900' }
 '.lci-alcohol-bottle-glass': { text: '\ue901', title: '\ue901' }
 '.lci-baby-bottle': { text: '\ue902', title: '\ue902' }
